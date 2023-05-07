@@ -11,6 +11,15 @@ body{
     font-weight:bold;
 }
 
+h2{
+    font-weight:bold;
+    font-size:23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color:black !important;
+}
 
 /*
          ABOUT
@@ -22,9 +31,10 @@ body{
     text-align: center;
 }
 
-img{
+#about img{
     border-radius: 50%;
     width:100px;
+    height:100px;
     margin-bottom: 20px;
 }
 
@@ -57,4 +67,31 @@ img{
 
 #about .icons a{
     color:rgb(41, 41, 41)
+}
+
+/*
+
+           PROJECT
+
+*/
+
+#project{
+    margin:60px auto;
+    width:80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width:100%;
+}
+
+#project .card-title{
+    font-weight: bold;
+}
+
+#project .card-text{
+    font-family: 'Gill Sans';
 }
